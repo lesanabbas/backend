@@ -5,7 +5,7 @@ echo "Running custom script"
 export PATH=$HOME/.local/bin:$PATH
 
 # Build steps
-pip install -r backend/requirements.txt
-python backend/manage.py migrate
+pip install -r requirements.txt
+python manage.py migrate
 
 echo "BUILD END"
