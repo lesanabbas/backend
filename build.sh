@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Running custom script"
-# Add your commands here
+
+# Ensure the script is run in the right environment
+export PATH=$HOME/.local/bin:$PATH
 
 # Build steps
 pip install -r backend/requirements.txt
