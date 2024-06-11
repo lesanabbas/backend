@@ -5,7 +5,7 @@
       "src": "backend/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "buildCommand": "./build.sh && vercel-build"
+        "buildCommand": "./build.sh"
       }
     }
   ],
