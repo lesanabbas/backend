@@ -7,8 +7,7 @@
     },
     {
       "src": "build.sh",
-      "use": "@vercel/python",
-      "dest": "backend/wsgi.py"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
